@@ -1,0 +1,12 @@
+#Green Room
+module1:
+  entrance_x: -0.643
+  entrance_y: 2.01
+  center_x: 0.69
+  center_y: 2.72
+#Red Room
+module2:
+  entrance_x: 8.14
+  entrance_y: 0.543
+  center_x: 7.44
+  center_y: 3.00
