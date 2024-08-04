@@ -1,6 +1,12 @@
 # Project Overview
 
-This document provides essential information on the model, training script, and guidelines for team members involved in the celestial body detection project using Faster R-CNN with ResNet50 backbone.
+The project aimed to enable a robot to navigate and interact intelligently within a simulated environment, achieving tasks such as safe zone entry, random walking exploration, window detection, planetary identification, and image stitching.
+
+We designed the ROS architecture for seamless interaction between various ROS nodes, ensuring efficient communication and control. Implementing goal-oriented navigation using the NavigateToPose service enhanced the robot's ability to reach specific coordinates accurately. For safe zone entry, we developed algorithms that allowed the robot to identify and enter the correct zone based on color markers, optimizing navigation efficiency by prioritizing the closest location and ensuring safety.
+
+Our exploration strategy included implementing a random walking algorithm for autonomous exploration within unknown environments. This approach improved the robot's ability to detect windows in real-time while conserving computational resources. We employed advanced image processing techniques, such as edge detection, contour filtering, and perspective transformation, for robust window detection. Furthermore, we integrated a deep learning model (Faster R-CNN with ResNet-50) for accurate planetary identification within detected windows.
+
+To create panoramic images, we utilized OpenCV’s Stitcher class to stitch together multiple images of celestial bodies. We also calculated distances between objects using geometric and photogrammetric techniques, providing accurate measurements within the robot's environment. During real-world testing, we adapted the system for application on a physical robot, addressing challenges like color detection thresholds and command execution delays due to network congestion. After necessary adjustments, the robot performed comparably to the simulation.
 
 ## Model and Training Script
 
