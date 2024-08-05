@@ -32,6 +32,10 @@ For accurate differentiation between closely related classes, such as Mercury an
 
 Due to GitHub's file size restriction of 100MB, the trained model is hosted externally. You can download it using [this link](https://drive.google.com/file/d/1hWsvUoG82yvRbd0EhVfHnu5zrqpsoR9u/view?usp=sharing). Ensure to integrate it with your local setup for further use.
 
+## Detailed Project Report
+
+For a detailed project report, including design, implementation, results, and observations, please refer to [this document](https://drive.google.com/file/d/1Obq77M9mY-3xabmNVoIFxbl7UOW_NtIe/view?usp=sharing).
+
 ## Model Export and GitHub Limitations
 
 Encountering GitHub's file size limit might require employing model compression techniques or exploring transfer learning with a simpler backbone model for easier sharing and deployment.
@@ -45,4 +49,3 @@ The aim is to integrate our model with ROS (Robot Operating System) for inferenc
 - Review the model and training script.
 - Adjust training parameters and the number of epochs as necessary to enhance class differentiation.
 - Explore options for efficient and accurate inferencing by integrating the model into our ROS setup.
-
