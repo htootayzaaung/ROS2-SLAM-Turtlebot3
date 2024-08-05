@@ -8,6 +8,10 @@ Our exploration strategy included implementing a random walking algorithm for au
 
 To create panoramic images, we utilized OpenCV’s Stitcher class to stitch together multiple images of celestial bodies. We also calculated distances between objects using geometric and photogrammetric techniques, providing accurate measurements within the robot's environment. During real-world testing, we adapted the system for application on a physical robot, addressing challenges like color detection thresholds and command execution delays due to network congestion. After necessary adjustments, the robot performed comparably to the simulation.
 
+![ROS2 SLAM Autonomous Mobile Turtlebot3](switch_real_robot.jpg)
+
+The image depicts a Raspberry Pi 4 setup with a Raspberry Pi Camera Module 3 mounted on a TurtleBot3 robot. The camera is centrally positioned and secured to the robot's frame using metal brackets, allowing it to capture a clear view of its surroundings.
+
 ## Model and Training Script
 
 Our project utilizes a Faster R-CNN model with a ResNet50 backbone for detecting various celestial bodies in images. The training script, `train.py`, is specifically designed for this task.
